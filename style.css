@@ -87,7 +87,7 @@ img, svg { display: block; }
   position: fixed; top: var(--nav-h); left: 0; right: 0; z-index: 199;
   background: var(--bg); border-bottom: 1px solid var(--border);
   padding: 1rem 2rem 1.5rem;
-  transform: translateY(-110%);
+  transform: translateY(calc(-100% - var(--nav-h)));
   transition: transform 0.35s cubic-bezier(0.4,0,0.2,1);
 }
 .mob-menu.open { transform: translateY(0); }
