@@ -551,4 +551,8 @@ footer {
   .menu-grid { grid-template-columns: 1fr; max-width: 380px; }
 
   .access-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+
+  .hero-sub br,
+  .concept-statement br,
+  .c-desc br { display: none; }
 }
